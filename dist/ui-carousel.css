@@ -57,7 +57,12 @@
   display: block;
   margin-bottom: 30px; }
   .ui-carousel .carousel-wrapper {
-    position: relative; }
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
   .ui-carousel .track-wrapper {
     position: relative;
     display: block;
