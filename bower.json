@@ -33,7 +33,9 @@
   ],
   "license": "MIT",
   "homepage": "https://mihnsen.github.com/ui-carousel",
-  "dependencies": {},
+  "dependencies": {
+    "angular-touch": ">=1.2.0"
+  },
   "devDependencies": {
     "angular-mocks": ">=1.2.0",
     "angular": "1.4",
