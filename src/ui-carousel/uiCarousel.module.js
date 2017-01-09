@@ -17,6 +17,7 @@
     'ui.carousel.config',
     'ui.carousel.directives',
     'ui.carousel.controllers',
-    'ui.carousel.providers'
+    'ui.carousel.providers',
+    'ngTouch'
   ]);
 })(angular);
