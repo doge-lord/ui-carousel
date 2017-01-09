@@ -1,4 +1,8 @@
-.carousel-wrapper(ng-show="ctrl.isCarouselReady")
+.carousel-wrapper(
+  ng-show="ctrl.isCarouselReady",
+  ng-swipe-right="ctrl.prev()",
+  ng-swipe-left="ctrl.next()"
+  )
   .track-wrapper
     .track(ng-style="ctrl.trackStyle")
       .slide(
